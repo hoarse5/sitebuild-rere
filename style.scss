@@ -1,0 +1,14 @@
+$primaryColour: rgb(188, 134, 92);
+body {
+    box-sizing: border-box;
+    background-color: $primaryColour;
+}
+
+.morella {
+    color: rgb(188, 134, 92);
+}
+
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+}
