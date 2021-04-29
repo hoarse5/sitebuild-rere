@@ -5,10 +5,23 @@ body {
 }
 
 .morella {
-    color: rgb(188, 134, 92);
+    color: $primaryColour;
 }
 
 .container {
-    min-width: 100vw;
     min-height: 100vh;
+}
+
+.hamburger {
+    background-color: white;
+}
+
+svg {
+    color: $primaryColour;
+}
+
+@media(min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
 }

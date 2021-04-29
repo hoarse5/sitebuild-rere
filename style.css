@@ -9,7 +9,23 @@ body {
 }
 
 .container {
-  min-width: 100vw;
   min-height: 100vh;
+}
+
+.hamburger {
+  background-color: white;
+}
+
+svg {
+  color: #bc865c;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 /*# sourceMappingURL=style.css.map */
