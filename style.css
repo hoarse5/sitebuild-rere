@@ -26,6 +26,7 @@ svg {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    text-align: justify;
   }
 }
 /*# sourceMappingURL=style.css.map */
