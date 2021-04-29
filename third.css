@@ -1,0 +1,54 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #22b573;
+}
+
+.hamburger {
+  background-color: black;
+}
+
+.hamburger:hover {
+  background-color: #22b573;
+  border: 2px solid #fcb84c;
+}
+
+svg {
+  color: white;
+  margin: 0 auto;
+}
+
+svg:hover {
+  color: #fcb84c;
+}
+
+@media (min-width: 768px) {
+  .cardcontainer {
+    width: 90vw;
+    height: 70vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .card {
+    -ms-flex-preferred-size: 200px;
+        flex-basis: 200px;
+  }
+}
+
+.text-header {
+  color: #fcb84c;
+}
+
+.btn {
+  color: #fcb84c;
+}
+
+a {
+  background-color: #fcb84c;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=third.css.map */

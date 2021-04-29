@@ -1,0 +1,45 @@
+$primaryColourFifth: rgb(10, 51, 251);
+$primaryColourSixth: rgb(209, 58, 254);
+body {
+    box-sizing: border-box;
+    background-color: $primaryColourFifth;
+}
+
+.hamburger {
+    background-color: black;
+    &:hover {
+        border: 2px solid $primaryColourSixth;
+        background-color: $primaryColourFifth;
+    }
+}
+
+svg {
+    &:hover {
+        color: $primaryColourSixth;
+    }
+}
+
+h1 {
+    color: $primaryColourSixth;
+}
+
+button {
+    &:hover {
+        border: 3px solid $primaryColourSixth;
+        background-color: $primaryColourFifth;
+        color: $primaryColourSixth;
+        font-weight: 700;
+    }
+}
+
+@media (min-width:452px) {
+    .content {
+        width: 340px;
+    }
+}
+
+@media (min-width:768px) {
+    .content {
+        width: 500px;
+    }
+}

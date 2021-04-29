@@ -1,0 +1,42 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #0a33fb;
+}
+
+.hamburger {
+  background-color: black;
+}
+
+.hamburger:hover {
+  border: 2px solid #d13afe;
+  background-color: #0a33fb;
+}
+
+svg:hover {
+  color: #d13afe;
+}
+
+h1 {
+  color: #d13afe;
+}
+
+button:hover {
+  border: 3px solid #d13afe;
+  background-color: #0a33fb;
+  color: #d13afe;
+  font-weight: 700;
+}
+
+@media (min-width: 452px) {
+  .content {
+    width: 340px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    width: 500px;
+  }
+}
+/*# sourceMappingURL=fifth.css.map */

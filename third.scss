@@ -1,0 +1,47 @@
+$primaryColourOne: rgb(34, 181, 115);
+$primaryColourTwo: rgb(252, 184, 76);
+body {
+    box-sizing: border-box;
+    background-color: $primaryColourOne;
+}
+
+.hamburger {
+    background-color: black;
+    &:hover {
+        background-color: $primaryColourOne;
+        border: 2px solid $primaryColourTwo;
+    }
+}
+
+svg {
+    color: white;
+    margin: 0 auto;
+    &:hover {
+        color: $primaryColourTwo
+    }
+}
+
+@media (min-width:768px) {
+    .cardcontainer {
+        width: 90vw;
+        height: 70vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card {
+        flex-basis: 200px;
+    }
+}
+
+.text-header {
+    color: $primaryColourTwo;
+}
+
+.btn {
+    color: $primaryColourTwo;
+}
+
+a {
+    background-color: $primaryColourTwo;
+    border-radius: 5px;
+}
