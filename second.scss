@@ -4,19 +4,11 @@ body {
     background-color: $primaryColour;
 }
 
-.morella {
-    color: $primaryColour;
-}
-
-.container {
-    min-height: 100vh;
-}
-
 .hamburger {
     background-color: white;
     &:hover {
-        border: 2px white solid;
         background-color: $primaryColour;
+        border: 2px solid white;
     }
 }
 
@@ -27,9 +19,17 @@ svg {
     }
 }
 
-@media(min-width: 768px) {
+.morella {
+    color: $primaryColour;
+}
+
+.container {
+    min-height: 80vh;
+}
+
+@media (max-width:768px) {
     .container {
-        flex-direction: row;
-        text-align: justify;
+        height: 600px;
+        width: 200px;
     }
 }

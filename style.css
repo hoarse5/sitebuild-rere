@@ -29,7 +29,7 @@ svg:hover {
   color: white;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

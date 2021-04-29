@@ -1,0 +1,38 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #bc865c;
+}
+
+.hamburger {
+  background-color: white;
+}
+
+.hamburger:hover {
+  background-color: #bc865c;
+  border: 2px solid white;
+}
+
+svg {
+  color: #bc865c;
+}
+
+svg:hover {
+  color: white;
+}
+
+.morella {
+  color: #bc865c;
+}
+
+.container {
+  min-height: 80vh;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 600px;
+    width: 200px;
+  }
+}
+/*# sourceMappingURL=second.css.map */
