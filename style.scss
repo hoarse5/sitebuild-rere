@@ -14,10 +14,17 @@ body {
 
 .hamburger {
     background-color: white;
+    &:hover {
+        border: 2px white solid;
+        background-color: $primaryColour;
+    }
 }
 
 svg {
     color: $primaryColour;
+    &:hover {
+        color: white;
+    }
 }
 
 @media(min-width: 1024px) {

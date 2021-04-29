@@ -16,8 +16,17 @@ body {
   background-color: white;
 }
 
+.hamburger:hover {
+  border: 2px white solid;
+  background-color: #bc865c;
+}
+
 svg {
   color: #bc865c;
+}
+
+svg:hover {
+  color: white;
 }
 
 @media (min-width: 1024px) {
